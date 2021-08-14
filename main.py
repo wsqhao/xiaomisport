@@ -293,9 +293,9 @@ if __name__ ==  "__main__":
         exit(0)
 
     # 用户名（格式为 13800138000）
-    user = input()
+    user = input(13617780539,17758584372,15676281674,13129497096)
     # 登录密码
-    passwd = input()
+    passwd = input(bhmb2006,bhmb2006,bhmb2006,bhmb2006,ye123321)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
     step = input().replace('[', '').replace(']', '')
 
