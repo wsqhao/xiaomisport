@@ -4,9 +4,11 @@
 import requests,time,re,json,random
 
 now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-header = {
-        'User_Agent':'Mozilla/5.0 (Linux; Android 10; BMH-AN10 Build/HUAWEIBMH-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36 JsSdk/2 NewsArticle/8.3.5 NetType/5g (NewsLite 8.3.5)'
-        }
+header={
+
+    'User_Agent':'Mozilla/5.0 (Linux; Android 10; BMH-AN10 Build/HUAWEIBMH-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36 JsSdk/2 NewsArticle/8.3.5 NetType/5g (NewsLite 8.3.5)',
+
+}
  
 #获取登录code
 def get_code(location):
