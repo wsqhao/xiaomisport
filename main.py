@@ -67,8 +67,8 @@ def main(user, passwd, step):
         return "user and passwd not empty！"
     
     if step == '':
-        print ("已设置为随机步数（24000-25000）")
-        step = str(random.randint(24000,25000))
+        print ("已设置为随机步数（21000-25000）")
+        step = str(random.randint(21000,25000))
     login_token = 0
     login_token,userid = login(user,password)
     if login_token == 0:
@@ -293,9 +293,9 @@ if __name__ ==  "__main__":
         exit(0)
 
     # 用户名（格式为 13800138000）
-    user = input(13617780539,17758584372,15676281674,13129497096)
+    user = input(13617780539#17758584372#15676281674#13129497096)
     # 登录密码
-    passwd = input(bhmb2006,bhmb2006,bhmb2006,bhmb2006,ye123321)
+    passwd = input(bhmb2006#bhmb2006#bhmb2006#bhmb2006#ye123321)
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
     step = input().replace('[', '').replace(']', '')
 
